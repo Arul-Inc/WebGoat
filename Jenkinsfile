@@ -47,7 +47,9 @@ pipeline {
                     polaris.application.name=Arul-Jenikins \
                     polaris.project.name=Arul-Jenkins-Goat \
                     polaris.branch.name=main \
-                    polaris.assessment.types=SCA,SAST
+                    polaris.assessment.types=SAST,SCA \
+                    polaris.test.sca.type=SCA-PACKAGE,SCA-SIGNATURE \
+                    coverity.build.command="./mvnw clean install -DskipTests"
                 '''
             }
         }
