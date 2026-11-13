@@ -42,12 +42,12 @@ pipeline {
                 sh '''
                     ./bridge-cli-bundle-linux64/bridge-cli \
                     --stage polaris \
-                    polaris.serverUrl=https://poc.polaris.blackduck.com/ \
+                    polaris.serverUrl=https://poc.polaris.blackduck.com \
                     polaris.accessToken=$POLARIS_TOKEN \
                     polaris.application.name=Arul-Jenikins \
                     polaris.project.name=Arul-Jenkins-Goat \
                     polaris.branch.name=main \
-                    polaris.assessment.types=SAST
+                    polaris.assessment.types=SCA,SAST
                 '''
             }
         }
