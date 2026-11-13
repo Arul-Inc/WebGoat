@@ -47,7 +47,7 @@ pipeline {
                     polaris.application.name=Arul-Jenikins \
                     polaris.project.name=Arul-Jenkins-Goat \
                     polaris.branch.name=main \
-                    polaris.assessment.types=SAST,SCA
+                    polaris.assessment.types=SAST
                 '''
             }
         }
