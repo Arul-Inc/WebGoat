@@ -45,11 +45,9 @@ pipeline {
                     polaris.serverUrl=https://poc.polaris.blackduck.com/i \
                     polaris.accessToken=$POLARIS_TOKEN \
                     polaris.application.name=Arul-Jenikins \
-                    polaris.project.name=Arul-Jenkins-Goard \
+                    polaris.project.name=Arul-Jenkins-Goat \
                     polaris.branch.name=main \
-                    polaris.assessment.types=SAST,SCA \
-                    polaris.test.sca.type=SCA-PACKAGE,SCA-SIGNATURE \
-                    coverity.build.command="./mvnw clean install -DskipTests"
+                    polaris.assessment.types=SAST,SCA
                 '''
             }
         }
