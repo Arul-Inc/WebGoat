@@ -54,4 +54,4 @@ steps:
     polarisAccessToken: $(POLARIS_ACCESS_TOKEN)
     polarisAssessmentTypes: SAST,SCA
     polarisTestScaType: SCA-PACKAGE,SCA-SIGNATURE
-    polarisApplicationName: gaja-impl-appx
+    polarisApplicationName: Arul-Azure
