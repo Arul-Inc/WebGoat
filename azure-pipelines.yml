@@ -53,5 +53,4 @@ steps:
     polarisServerUrl: $(POLARIS_SERVER_URL)
     polarisAccessToken: $(POLARIS_ACCESS_TOKEN)
     polarisAssessmentTypes: SAST,SCA
-    polarisTestScaType: SCA-PACKAGE,SCA-SIGNATURE
     polarisApplicationName: Arul-Azure
